@@ -50,7 +50,7 @@ $.fn.flickr = function(o){
                     var t = 'http://farm'+photo['farm']+'.static.flickr.com/'+photo['server']+'/'+photo['id']+'_'+photo['secret']+'_'+s.thumb_size+'.jpg';
                     var h = 'http://farm'+photo['farm']+'.static.flickr.com/'+photo['server']+'/'+photo['id']+'_';
                     var flickrPage = 'https://www.flickr.com/photos/' + r.photos['owner'] + '/' + photo['id'];
-                    if (!s.size) h += photo['secret']+'.jpg';
+                    if (!s.size || !photo['originalsecret']) h += photo['secret']+'.jpg';
                     else if (s.size == 'o') h += photo['originalsecret']+'_o.'+photo['originalformat'];
                     else h += photo['secret']+'_'+s.size+'.jpg';
                   if (s.displayType === 'slideshow'){

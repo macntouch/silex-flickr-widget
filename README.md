@@ -10,7 +10,7 @@ With this widget you can add a gallery or slideshow to your Silex website. It lo
 
 ![a gallery in your Silex website](https://cloud.githubusercontent.com/assets/715377/7670554/db33729c-fca9-11e4-817a-ad48afd7759f.png)
 
-This widget is based on the great [fancyBox](http://fancyapps.com/fancybox/#license) ([Creative Commons non commercial](http://creativecommons.org/licenses/by-nc/3.0/)) and it is a fork of the [jQuery Flickr project](https://code.google.com/p/jquery-flickr/) ([GPL license](http://www.gnu.org/licenses/gpl.html)).
+This is compatible with the great [fancyBox](http://fancyapps.com/fancybox/#license) ([Creative Commons non commercial](http://creativecommons.org/licenses/by-nc/3.0/)) and it is a fork of the [jQuery Flickr project](https://code.google.com/p/jquery-flickr/) ([GPL license](http://www.gnu.org/licenses/gpl.html)). This widget is also lisenced under the [GPL license](http://www.gnu.org/licenses/gpl.html).
 
 This widget uses Flickr which is a Yahoo! company, and which offers free hosting your photos. Flickr generates multiple resolutions for the user to view, it allows you to create albums, and it has several ways to upload photos easily even in a raw format.
 
